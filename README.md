@@ -7,6 +7,7 @@ To develop a Django application to store and retrieve bus information using ORM 
 
 ### Bus Information Entity Diagram
 
+
 ## DESIGN STEPS
 
 ### STEP 1:
