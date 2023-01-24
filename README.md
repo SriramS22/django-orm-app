@@ -5,7 +5,8 @@ To develop a Django application to store and retrieve bus information using ORM 
 
 ## Entity Relationship Diagram
 
-### Bus Information Entity Diagram
+
+![entity](https://user-images.githubusercontent.com/119094390/214300470-9a36e7f4-a235-455a-ae5e-678f6046c159.png)
 
 
 ## DESIGN STEPS
@@ -31,11 +32,14 @@ class Bus(models.Model):
     noofseats=models.IntegerField()
 class Businfo(admin.ModelAdmin):
     list_display = ('Busno','driver','From','To','noofseats')    
+   
 
 ```
 ## OUTPUT
 
-Include the screenshot of your admin page.
+![django-orm-im](https://user-images.githubusercontent.com/119094390/214300686-be95e0b7-2b18-4a47-b134-0c2cd0bd4fe9.png)
+
 
 
 ## RESULT
+Thus the program is developed to display Bus Details
